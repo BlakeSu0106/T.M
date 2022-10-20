@@ -1,0 +1,31 @@
+export default {
+    // Rules Validation
+    'btn.nextStep':'下一步',
+    'btn.login':'登入',
+    'rules.required': '欄位為必填, 請輸入正確資料',
+    'rules.lessthan': '輸入不得超過 ${length} 個字數',
+    'rules.email': '請輸入正確的 email 格式',
+    'rules.confirmPassword': '請輸入相同密碼',
+    'validation.tiitle':'驗證您的身份',
+    'validation.SMS':'您的驗證碼已透過SMS簡訊傳送至',
+    'password.register':'設定您的密碼',
+    'password.register':'設定您的密碼',
+    'password.login':'輸入您的密碼',
+    'password.set':'輸入您的新密碼',
+    'password.reset':'重新設定密碼',
+    'register.passwordContent':'設定一組密碼給以下帳號登入使用',
+    'phone.error':'手機格式錯誤',
+    'placeholder.normal':'請輸入手機或Email',
+    'placeholder.email':'請輸入Email',
+    'placeholder.phone':'請輸入手機',
+    'register.title':'填寫會員資料',
+    'label.name':'姓名',
+    'label.nickname':'暱稱',
+    'label.email':'Email',
+    'label.mobile':'手機',
+    'label.gender':'性別',
+    'label.male':'男',
+    'label.female':'女',
+    'message.SMS.error':'簡訊認證錯誤，請重新輸入。'
+  };
+  

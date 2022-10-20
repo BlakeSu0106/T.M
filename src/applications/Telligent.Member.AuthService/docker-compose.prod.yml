@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  telligent.member.authservice:
+    build:
+      context: ../../../
+      dockerfile: ./src/applications/Telligent.Member.AuthService/Dockerfile
+    network_mode: "host"
+    image: telligent.member.authservice
+    container_name: telligent.member.authservice
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production

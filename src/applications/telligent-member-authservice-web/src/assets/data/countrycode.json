@@ -1,0 +1,19 @@
+{
+   "country": [
+      {
+         "countryCode": "TW",
+         "countryName": "台灣",
+         "phoneCode": "+886"
+      },
+      {
+         "countryCode": "MO",
+         "countryName": "澳門",
+         "phoneCode": "+853"
+      },
+      {
+         "countryCode": "SG",
+         "countryName": "新加坡",
+         "phoneCode": "+65"
+      }
+   ]
+}

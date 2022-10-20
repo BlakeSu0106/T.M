@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telligent.Core.Domain" Version="1.0.52305-alpha" />
+    <PackageReference Include="Telligent.Core.Infrastructure" Version="1.0.60601-alpha" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Shared\Organizations\" />
+  </ItemGroup>
+
+</Project>

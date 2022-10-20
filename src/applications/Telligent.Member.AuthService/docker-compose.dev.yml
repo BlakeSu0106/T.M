@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  telligent.member.authservice:
+    build:
+      context: ../../../
+      dockerfile: ./src/applications/Telligent.Member.AuthService/Dockerfile    
+    image: telligent.member.authservice
+    container_name: telligent.member.authservice
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - 3000:3000
+    networks:
+      - telligent-network
+
+networks:
+  telligent-network:
+    external: true

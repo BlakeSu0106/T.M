@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Duende.IdentityServer" Version="6.0.4" />
+    <PackageReference Include="HotChocolate.Abstractions" Version="12.12.1" />
+    <PackageReference Include="HotChocolate.Data" Version="12.12.1" />
+    <PackageReference Include="HotChocolate.Types" Version="12.12.1" />
+    <PackageReference Include="HotChocolate.Types.CursorPagination" Version="12.12.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
+    <PackageReference Include="Telligent.Core.Application" Version="1.0.60601-alpha" />
+    <PackageReference Include="Telligent.Core.Infrastructure" Version="1.0.60601-alpha" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Telligent.Member.Database\Telligent.Member.Database.csproj" />
+    <ProjectReference Include="..\Telligent.Member.Domain\Telligent.Member.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

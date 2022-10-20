@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  telligent.member.webapi:
+    build:
+      context: ../../../
+      dockerfile: ./src/applications/Telligent.Member.WebApi/Dockerfile
+    network_mode: "host"
+    image: telligent.member.webapi
+    container_name: telligent.member.webapi
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+
+networks:
+  telligent-network:
+    external: true
